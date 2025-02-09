@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Garante que padding e border sejam incluídos no tamanho total dos elementos */
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: relative;
+    width: 100%;
+}
+
+.cabecalho__primeiracor{
+    background-color: #5D88F9;
+    height: 140px;
+    width: 100%;
+    display: block;
+}
+
+.cabecalho__segundacor{
+    background-color: #8BF45A;
+    height: 70px;
+    width: 100%;
+    display: block;
+}
+
+.imagem__logo{
+    width: 400px; 
+    position: absolute;
+    top: 50%; /* Coloca a imagem 50% da altura do header */
+    left: 50%; /* Coloca a imagem 50% da largura do header */
+    transform: translate(-50%, -50%); /* Centraliza a imagem exatamente no meio */
+    z-index: 1; /* Garante que a imagem fique sobre os blocos */
+}
+
+.container__principal{
+    display: flex;
+    flex-direction: column; /* Coloca os itens em coluna */
+    align-items: center;
+    margin-top: 60px;
+}
+
+.container__botao{
+    display: block; /* Faz os links ficarem um embaixo do outro */
+    background-color: #5D88F9;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 15px;
+    font-size: 30px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    margin: 20px 0;
+    width: 400px;
+}
+
+.container__botao:hover {
+    background-color: #3050a0;
+  }
+
+.rodape__container {
+    background-color: #8BF45A;
+    height: 70px;
+    width: 100%;
+    position: fixed;/*Isso faz com que o rodapé fique sempre fixo na tela, independentemente da rolagem.*/
+    bottom: 0; /* Fixa o rodapé na parte inferior da janela */
+    left: 0;   /* Garante que o rodapé se estenda até a esquerda da tela */
+}
