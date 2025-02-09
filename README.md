@@ -19,7 +19,7 @@ O site desenvolvido acompanha o projeto do totem e permite:
 - **Rastreamento de Ônibus:** Mostra a localização atual dos ônibus selecionados e o tempo estimado até o próximo ponto de parada, facilitando o planejamento da viagem.
 
 ## 📷 Capturas de Tela
-*(HelpBus/Img/pagina.png)*
+![Print do projeto](HelpBus/Img/pagina.png)
 
 ## 🚀 Como Acessar
 Para visualizar o site, basta acessar o repositório e abrir o arquivo `index.html` em um navegador.
